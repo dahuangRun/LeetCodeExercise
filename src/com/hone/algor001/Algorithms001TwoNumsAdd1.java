@@ -1,12 +1,13 @@
-package com.hone;
+package com.hone.algor001;
 
 /**
  * 1 两数之和 https://leetcode-cn.com/problems/two-sum/description/
- * 思路：利用一个二层的for循环
+ * 思路：利用一个二层的for循环  最暴力的方法
+ * 时间复杂度较高  O(n**2)
  * @author Xia
  *
  */
-public class Algorithms001TwoNumsAdd {
+public class Algorithms001TwoNumsAdd1 {
 
 	public static int[] twoSum(int[] nums, int target) {
 		int[] res = new int[2];
@@ -27,7 +28,7 @@ public class Algorithms001TwoNumsAdd {
 		int[] nums = {2, 7, 11, 15,8};
 		int target = 9;
 		int[] res = new int[2];
-		res = Algorithms001TwoNumsAdd.twoSum(nums, target);
+		res = Algorithms001TwoNumsAdd1.twoSum(nums, target);
 		for (int i : res) {
 			System.out.print(i+" ");
 		}

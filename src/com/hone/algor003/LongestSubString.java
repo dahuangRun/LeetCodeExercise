@@ -3,8 +3,9 @@ package com.hone.algor003;
 import java.util.HashSet;
 
 /**
+ * 题目地址：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/
  * 给定一个字符串，找出不含有重复字符的最长子串的长度
- * 因为题目中要求给出不重复的连续子串，因此可以参考java中的HashSet<>结构来存储子串
+ * 思路：因为题目中要求给出不重复的连续子串，因此可以参考java中的HashSet<>结构来存储子串
  * @author Xia
  *
  */

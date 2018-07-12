@@ -1,4 +1,4 @@
-package com.hone;
+package com.hone.algor001;
 
 import java.util.HashMap;
 import java.util.Map;
