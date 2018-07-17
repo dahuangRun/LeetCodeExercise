@@ -13,7 +13,7 @@ package com.hone.algor005;
  */
 public class LongestPalindrome1 {
 	
-	//利用两个for循环来遍历所有的子串
+	//利用两个for循环来遍历所有的子串，并且在里面再加一层while循环用于判断字符串是否是回文串
 	public String longestPalindrome(String s) {
 		for (int size = s.length(); size > 0; size--) {
 			for (int low = 0, hight = low+size-1; hight < s.length(); low++,hight++) {
