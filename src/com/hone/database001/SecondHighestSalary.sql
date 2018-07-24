@@ -1,5 +1,6 @@
 /*
  第二高的薪水：https://leetcode-cn.com/problems/second-highest-salary/description/
+ 主要是通过两个选择来筛选出第二高的薪水
 */
 
 SELECT max(Salary) as SecondHighestSalary from Employee where SALARY < (select max(SALARY) from Employee); 
@@ -22,4 +23,3 @@ Create table If Not Exists Employee (
 insert into Employee (Id, Salary) values ('1', '100');
 insert into Employee (Id, Salary) values ('2', '200');
 insert into Employee (Id, Salary) values ('3', '300');
-
