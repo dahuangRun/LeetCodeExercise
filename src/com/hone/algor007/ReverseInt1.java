@@ -1,4 +1,4 @@
-package com.hone.algor006;
+package com.hone.algor007;
 
 /**
  * 给定一个 32 位有符号整数，将整数中的数字进行反转
