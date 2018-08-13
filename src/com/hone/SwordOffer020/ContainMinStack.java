@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Stack;
 
 /**
- * 题目： 自定义包含min函数的栈数据结构。
+ * 题目： 自定义包含min函数的栈数据结构。 
+ * 方法1：利用一个Stack，完全模拟Stack的操作过程。
  * 
  * @author Xia
  *
@@ -13,23 +14,15 @@ public class ContainMinStack {
 
 	// 设置栈的大小
 	private int size;
-	private int[] element; // 用于存储栈中的元素
-	private int top; // 栈顶指针
+	private Integer[] element = new Integer[10]; // 用于存储栈中的元素
 	private int min = Integer.MAX_VALUE;
 
 	Stack<Integer> minStack = new Stack<Integer>();
 
-	// 构造函数对默认的栈初始化
-	public ContainMinStack(int size) {
-		this.size = size;
-		this.element = new int[size];
-		top = 0;
-	}
-
 	// 将元素压入到minStack中
 	public void push(int node) {
 		ensureCapacity(size + 1);
-		element[top++] = node;
+		element[size++] = node;
 		if (node <= min) {
 			minStack.push(node);
 			min = minStack.peek();
@@ -42,19 +35,24 @@ public class ContainMinStack {
 	public void pop() {
 		Integer topNum = top();
 		if (topNum != null) {
-			element[top - 1] = (Integer) null;
+			element[size - 1] = (Integer) null;
 		}
-		top--;
+		size--;
 		minStack.pop();
 		min = minStack.peek();
 	}
 
 	public int top() {
-		if (top >= 0) {
-			return element[top];
+		if (!empty()) {
+			if (size - 1 >= 0) {
+				return element[size - 1];
+			}
 		}
 		return (Integer) null;
+	}
 
+	public boolean empty() {
+		return size == 0;
 	}
 
 	public int min() {
