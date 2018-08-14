@@ -44,7 +44,7 @@ public class Pratice0005MergeSort {
 			rTemp[j] = a[m + 1 + j];
 		}
 		
-		//合并两个空数组,初始化最开始的索引
+		//合并两个辅助数组,初始化最开始的索引
 		int i = 0;
 		int j = 0;
 		
