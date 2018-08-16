@@ -27,7 +27,7 @@ public class LongestSubString {
 				if ( (i - pre) > max_value) {
 					max_value = i - pre;
 				}
-				//知道找到与当前字符相同的字符，然后才开启下一个字符串，跳过原来已经存在的字符
+				//直到找到与当前字符相同的字符，然后才开启下一个字符串，跳过原来已经存在的字符
 				while (s.charAt(pre) != s.charAt(i)) {
 					subString.remove(s.charAt(pre));
 					pre++;
