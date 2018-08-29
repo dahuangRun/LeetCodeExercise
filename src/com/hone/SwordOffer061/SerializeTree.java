@@ -27,6 +27,7 @@ public class SerializeTree {
 	
 	/**
 	 * 反序列化二叉树(根据字符串还原二叉树)
+	 * 实际上采用的前序遍历。
 	 * @param str
 	 * @return
 	 */
