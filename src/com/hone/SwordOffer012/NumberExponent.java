@@ -7,6 +7,12 @@ package com.hone.SwordOffer012;
  * 2.写出指数的二进制表达，例如13表达为二进制1101。
  * 3.举例:10^1101 = 10^0001*10^0100*10^1000。
  * 4.通过&1和>>1来逐位读取1101，为1时将该位代表的乘数累乘到最终结果。
+ * 分类讨论：
+ * 			1 —>指数大于0
+ * 			2 —>指数小于0
+ * 				——> 底数等于0
+ * 				——> 底数不等于0
+ * 			3 —>指数等于0 
  * @author Xia
  *
  */
@@ -25,13 +31,13 @@ public class NumberExponent {
 			return 1;// 0的0次方
 		}
 		while (exponent != 0) {
+			//如果等于1的时候，则相乘得到最后结果。
 			if ((exponent & 1) == 1)
 				res *= curr;
-			curr *= curr;// 翻倍
-			exponent >>= 1;// 右移一位
+			curr *= curr;		// 翻倍
+			exponent >>= 1;		// 右移一位
 		}
 		return n >= 0 ? res : (1 / res);
-		
 		// return Math.pow(base, exponent);
 	}
 }

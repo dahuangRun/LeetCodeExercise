@@ -16,10 +16,4 @@ public class CountOneInBinay {
 		}
 		return count;
 	}
-	
-	public static void main(String[] args) {
-		int a = -1;
-		int num = new CountOneInBinay().NumberOf1(a);
-		System.out.println(num);
-	}
 }

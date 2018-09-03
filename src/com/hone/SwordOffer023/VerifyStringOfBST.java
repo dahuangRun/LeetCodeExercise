@@ -45,6 +45,7 @@ public class VerifyStringOfBST {
 				}
 		}
 		
+		//再分别判断二叉搜索树的左右孩子结点是否也成立
 		return judge(a, start, i-1)&&judge(a, i, root-1);
 	}
 }

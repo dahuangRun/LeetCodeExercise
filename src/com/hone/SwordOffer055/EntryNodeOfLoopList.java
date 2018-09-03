@@ -13,7 +13,7 @@ public class EntryNodeOfLoopList {
         //定义两个结点p1,p2 p1每次走一步,p2每次走两步。
         ListNode p1 = pHead;
         ListNode p2 = pHead;
-        while (p1 != null && p2 != null) {
+        while (p1 != null && p2 != null && p2.next != null) {
 			p1 = p1.next;			//p1每次走一步
 			p2 = p2.next.next;		//p2每次走二步
 			//如果p1和p2相遇，则将p2结点设置为首节点

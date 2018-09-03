@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * 题目：输入一颗二叉树的跟节点和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。
  * 		完整路径定义：从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。
+ * 思路：类似于DFS
  * 
  * @author Xia
  *
@@ -30,7 +31,7 @@ public class FindPathForSum {
 		FindPath(root.left, target);
 		FindPath(root.right, target);
 		
-		//为什么需要回退一步呢？
+		//为什么需要回退一步呢？递归到叶子节点如果还没有找到路径，就要回退到父节点继续寻找，依次类推
 		res.remove(res.size() - 1);
 		return resAll;
 

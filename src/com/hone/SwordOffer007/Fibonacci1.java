@@ -7,7 +7,7 @@ package com.hone.SwordOffer007;
  * @author Xia
  *
  */
-public class Fibonacci {
+public class Fibonacci1 {
 	public int Fibonacci(int n) {
 		if (n <= 1) {
 			return n;

@@ -14,6 +14,7 @@ public class ComplicationLinkedCopy {
 		
 		RandomListNode  currentNode = pHead;
 		//1：第一步复制每一个结点，将复制的结点放在原结点的后面，比如A 复制为A1,放在A的后面,但是暂时不处理随机结点
+		 //链表插入，先让复制的结点也指向下一个结点，再删除原节点和下一个结点之间的关联。
 		while (currentNode != null) {
 			RandomListNode cloneNode = new RandomListNode(currentNode.label);
 			cloneNode.next = currentNode.next;

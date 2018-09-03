@@ -18,13 +18,6 @@ public class ReverseArrayMin {
 				break;
 			}
 		}
-
 		return aim;
-	}
-	public static void main(String[] args) {
-		int[] a = {2,2,3,1,2};
-		int res = new ReverseArrayMin().minNumberInRotateArray(a);
-		System.out.println(res);
-		
 	}
 }

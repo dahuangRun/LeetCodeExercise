@@ -9,6 +9,7 @@ package com.hone.SwordOffer015;
  */
 public class ReverseListMethod {
 	public ListNode ReverseList(ListNode head) {
+		
 		if (head == null) {
 			return null;
 		}

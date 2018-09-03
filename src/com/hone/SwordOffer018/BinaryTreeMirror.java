@@ -14,7 +14,7 @@ public class BinaryTreeMirror {
 		if (root.left == null&&root.right == null) {
 			return;
 		}
-		// 不过不同时为空，首先对接点进行交换。
+		//如果不同时为空，首先对接点进行交换。
     	// 然后再递归。
 		TreeNode res = root.left;
 		root.left = root.right;

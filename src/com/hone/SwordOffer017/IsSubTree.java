@@ -11,7 +11,7 @@ public class IsSubTree {
 		boolean result = false;
 		
 		//只有在root1和root2不为空的时候，开始内部判断，否则直接返回默认的false
-		if (root1 != null&& root2 != null) {
+		if (root1 != null && root2 != null) {
 			
 			//如果找到了root2对应的根节点，则直接在内部开始寻找
 			if (root1.val == root2.val) {
@@ -49,6 +49,6 @@ public class IsSubTree {
 		}
 		
 		//如果root1和root2对应上了，则开始寻找其内部是否完全相同(也是就是判断左子树和右子树是否包含)
-		return doesTree1HasTree2(root1.left, root2.left)&&doesTree1HasTree2(root1.right, root2.right);
+		return doesTree1HasTree2(root1.left, root2.left) && doesTree1HasTree2(root1.right, root2.right);
 	}
 }
