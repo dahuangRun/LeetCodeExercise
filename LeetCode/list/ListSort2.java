@@ -1,12 +1,10 @@
 package list;
 
 /**
- * ��Ŀ���� O(n log n) ʱ�临�ӶȺͳ������ռ临�Ӷ��£��������������
- * ˼·����Ϊ��ĿҪ����O(n log n)ʱ������ɽ�������ˣ�ֻ�й鲢�����١����������ѡ��
- * 		���������ǵ��������ѡ��鲢����ȽϷ��㡣
- * �������ģ���������һ�����  �м���(�����������  fast��slow)��
+ * 题目：在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
+ * 对于链表的排序：通常的时间复杂度在O(n log n)内的一般有快速排序，归并排序，堆排序。
  * 
- * ��merge�����õ��ݹ�˼�롣
+ * 技巧：利用快慢结点寻找中间结点的位置。
  * @author Xia
  *
  */
@@ -16,26 +14,26 @@ public class ListSort2 {
             return head;
         }
         
-        //��Ŀ��ʱ�临�Ӷ���Ҫ����˲��ù鲢����ķ�ʽ
-        //����Ѱ��������е�
+		//题目对时间复杂度有要求，因此采用归并排序的方式
+        //首先寻找链表的中点
         ListNode slow = head;
         ListNode fast = head;
-        ListNode pre = head;            //��¼�е��ǰһ�����
+        ListNode pre = head;            //记录中点的前一个结点
         while(fast != null && fast.next != null){
             pre = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
-        //�ҵ��е������ָ��������
+        //找到中点后将链表分割成两部分
         pre.next = null;
         return merge(sortList(head),sortList(slow));        
     }
     
     
-    //����һ��merge����
+    //定义一个merge函数
     public ListNode merge(ListNode l1,ListNode l2){
         
-        //����һ��������ͷ���
+        //创建一个认为的空节点
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;
         

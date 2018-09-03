@@ -1,9 +1,7 @@
 package list;
 
 /**
- * ��Ŀ��ɾ�������е��ڸ���ֵ val �����нڵ㡣
- * ˼·������������㣺pre��cur(����cur��ʾ���ڱȽϵĽ�㣬pre��ʾcurǰһ�����)
- * 
+ * 题目：删除链表中等于给定值 val 的所有节点
  * @author Xia
  *
  */
@@ -14,6 +12,7 @@ public class ListRemoveSomeNode {
 
 		ListNode dummy = new ListNode(-1);
 		dummy.next = head;
+		
 		ListNode pre = dummy;
 		ListNode cur = head;
 

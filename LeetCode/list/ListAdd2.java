@@ -3,16 +3,17 @@ package list;
 import java.util.Stack;
 
 /**
- * ��Ŀ���������(3-4-5-1)+(2-3-1)=3-6-8-2
- * ˼·����������ջʵ������������ӣ����Ҽ����֮������ͷ�巨���������Ľ����
- * �ؼ�����������dummy = 1;�������н�λ����dummy�����Чֵ�����û�н�λ�����dumm.next.
+ * 题目：两数相加 II (3-4-5-1)+(2-3-1)=3-6-8-2
+ * 思路：利用堆栈的先进后出的原理。如果链表为空，则将其值设置为0。
+ * 技巧：将最开始额外的头结点设置为dummy.val = 1
+ * 		
  * @author Xia
  *
  */
 public class ListAdd2 {
 
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-		//��������ջ���Ƚ����˼��
+		//可以利用栈的先进后出思想
         Stack<ListNode> s1 = new Stack<ListNode>();
         Stack<ListNode> s2 = new Stack<ListNode>();
         while(l1 != null){
@@ -23,9 +24,9 @@ public class ListAdd2 {
             s2.push(l2);
             l2 = l2.next;
         }
-        //���ý�λ
+      //设置进位
         int carry = 0;
-        //���dummy��һ����û���õĽ��
+      //这个dummy不一定是没有用的结点
         ListNode dummy = new ListNode(1);
         
         ListNode cur = dummy;

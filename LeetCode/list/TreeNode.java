@@ -1,7 +1,7 @@
 package list;
 
 /**
- * ��Ŀ�����ڵ��ࡣ
+ * 二叉树的类ࡣ
  * @author Xia
  *
  */

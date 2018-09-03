@@ -1,17 +1,14 @@
 package list;
 
 /**
- * ��Ŀ���������ڵ�������㡣
- * ˼·�����ǿ��Զ����ĸ���㡣cur��first��second��Last
- * 		����first��second�ֱ��ʾ��Ҫ�����������㡣
- * 		cur��ʾ��Ҫ������ǰ��һ����
- * 		last��ʾ��Ҫ������ĺ���һ����
- * ��һ������ֻ�Ƕ��������㣬û�аѽ���֮��ĵ���ν���ȥ��
+ * 题目：给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+ * 思路：定义两个结点first、second、cur分别对交换结点做辅助使用。
  * @author Xia
  *
  */
 public class ListSwapNode {
 	public ListNode swapPairs(ListNode head) {
+		
 		ListNode temp = new ListNode(0);
 		temp.next = head;
 

@@ -1,7 +1,7 @@
 package list;
 
 /**
- * ����Ľ����
+ * 定义一个结点类
  * @author Xia
  *
  */
