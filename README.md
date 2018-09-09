@@ -53,6 +53,20 @@
 :----|:----:|
 [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/) | 答案|
 
+
+### 字符串
+题目|java|
+:----|:----:|
+[字符串循环左移](https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&tPage=3&rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)| 答案|
+[最长公共子序列](https://www.cnblogs.com/xiaxj/p/7245840.html)|[答案](https://www.cnblogs.com/xiaxj/p/7245840.html)|
+[字符串的全排列](https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=13&tqId=11180&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)|[答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/src/com/hone/SwordOffer027/StringSort.java)|
+[最长回文子串](https://www.cnblogs.com/xiaxj/p/9613842.html|[答案](https://www.cnblogs.com/xiaxj/p/9613842.html)|
+
+
+
+
+
+
 	
 	
 	
