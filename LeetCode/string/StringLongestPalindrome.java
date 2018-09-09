@@ -1,16 +1,19 @@
-package com.hone.algor005;
+package string;
 
 /**
- * 方法2：可以使用动态规划的方法
+ * 求最长回文子串
  * 效果：时间复杂度O(n^2),空间O(n^2)
  * 思路：如果s(i,j)是回文串，则table[i][j] = true;否则定义为false
  * 		如何计算table[i][j]呢，我们可以首先检查table[i+1][j-1]是否为true，及s[i]是否等于s[j].
  * @author Xia
  *
  */
-public class LongestPalindrome2 {
+public class StringLongestPalindrome {
+	
 	public static String longestPalSubstr(String s){
+		
 		int n = s.length();
+		
 		boolean[][] table = new boolean[n][n];
 		
 		//所有的一个字符肯定是回文串
@@ -20,7 +23,9 @@ public class LongestPalindrome2 {
 		for (int i = 0; i < n; i++) {
 			table[i][i] = true;
 		}
+		
 		int start = 0;
+		
 		//如果字符串长度小于2，则直接处理
 		for (int i = 0; i < n - 1; ++i) {
 			if (s.charAt(i) == s.charAt(i +1)) {
@@ -53,8 +58,4 @@ public class LongestPalindrome2 {
 		return s.substring(start, start+maxLength);
 	}
 	
-	//测试方法
-		public static void main(String[] args) {
-			System.out.println(longestPalSubstr("cbvbd"));
-		}
 }

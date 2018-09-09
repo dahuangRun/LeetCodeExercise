@@ -40,7 +40,7 @@ public class LongestPalindrome1 {
 	
 	//测试方法
 	public static void main(String[] args) {
-		System.out.println(new LongestPalindrome1().longestPalindrome("cbbd"));
+		System.out.println(new LongestPalindrome1().longestPalindrome("cbbvbbd"));
 	}
 
 }

@@ -19,6 +19,8 @@ public class LongestPalindrome3 {
 		
 		int low ,hight;
 		
+		
+		//这里面用i表示中心点的位置
 		for (int i = 0; i < len; i++) {
 			
 			//首先查找最长的偶数回文字符串,有两个中心点，分别为 i -1、 i
@@ -48,12 +50,12 @@ public class LongestPalindrome3 {
 		
 		//起始和结束的位置
 		
-		return s.substring(start, start + maxLength -1);
+		return s.substring(start, start + maxLength);
 	}
 	
 	//测试方法
 		public static void main(String[] args) {
-			System.out.println(new LongestPalindrome1().longestPalindrome("cbdkchhckdbd"));
+			System.out.println(longestPalSubstr("cbvbd"));
 		}
 	
 }
