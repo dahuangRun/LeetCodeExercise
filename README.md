@@ -51,7 +51,33 @@
 ### 链表
 题目|java|
 :----|:----:|
-[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/) | 答案|
+[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/RemoveNthFromEndMethod.java)|
+[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/MergeTwoListsMethod.java)|
+[两两交换链表中的结点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListSwapNode.java)|
+[旋转链表](https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListRotateRight.java)|
+[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | [答案1](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListRemoveNode.java) |
+[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list) | [答案2](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListRemoveNode2.java)|
+[删除排序链表中的所有重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListRemoveAllSameNode.java)|
+[分割链表](https://leetcode-cn.com/problems/partition-list/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListDivided.java)|
+[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListReverse.java)|
+[反转部分链表](https://leetcode-cn.com/problems/reverse-linked-list-ii) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListPartReverse.java)|
+[有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListSortedToBST.java)|
+[复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/src/com/hone/SwordOffer025/ComplicationLinkedCopy.java)|
+[环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListHasCircle.java)|
+[环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [答案2](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListHasCircle2.java)|
+[环形链表的入口结点](https://leetcode-cn.com/problems/linked-list-cycle-ii/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListHasCircleDeleteEntry.java)|
+[对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListInsertSort.java)|
+[排序链表](https://leetcode-cn.com/problems/sort-list/description/) | [答案1](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListSort.java)|
+[排序链表](https://leetcode-cn.com/problems/sort-list/description/) | [答案2](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListSort2.java)|
+[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListCommonNode.java)|
+[两数相加](https://leetcode-cn.com/problems/add-two-numbers) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListAdd.java)|
+[两数相加2](https://leetcode-cn.com/problems/add-two-numbers-ii) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListAdd2.java)|
+[奇偶位置链表](https://leetcode-cn.com/problems/odd-even-linked-list/description/) | [答案1](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListoddEvenList.java)|
+[奇偶位置链表](https://leetcode-cn.com/problems/odd-even-linked-list/description/) | [答案2](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListoddEvenList2.java)|
+[删除链表中的结点](https://leetcode-cn.com/problems/remove-linked-list-elements/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListRemoveSomeNode.java)|
+[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/description/) | [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/list/ListPalindrome.java)|
+
+
 
 
 ### 字符串
@@ -61,6 +87,15 @@
 [最长公共子序列](https://www.cnblogs.com/xiaxj/p/7245840.html)|[答案](https://www.cnblogs.com/xiaxj/p/7245840.html)|
 [字符串的全排列](https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=13&tqId=11180&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)|[答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/src/com/hone/SwordOffer027/StringSort.java)|
 [最长回文子串](https://www.cnblogs.com/xiaxj/p/9613842.html)|[答案](https://www.cnblogs.com/xiaxj/p/9613842.html)|
+
+
+### 树
+题目|java|
+:----|:----:|
+[二叉树先序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)| [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/tree/PreorderTraversal.java)|
+[二叉树中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)| [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/tree/InorderTraversal.java)|
+[二叉树后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)| [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/tree/PostorderTraversal.java)|
+[二叉树层序遍历1](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/description/)| [答案](https://github.com/xiaAde/LeetCodeExercise/blob/master/LeetCode/tree/LevelOrderTraversal.java)|
 
 
 
@@ -74,108 +109,113 @@
 
 # 剑指Offer笔记
 ## 每道题目需要注意的地方
-1. **二维数组的查找**
+1. **二维数组的查找(AC)**
 	1. 思路：因为矩阵是有序的，所有可以将初始值定在左下角。(当然也可以定义在右上角)    
 		从左下角来看，如果target大于左下角的数，则向右移;小于,则向左移动。
 			
-2. **替换空格**
+2. **替换空格(AC)**
 	1. 这个主要利用replaceAll()。
+	2. 从后往前替换
 		
-3. **从头到尾打印链表**
+3. **从尾到头打印链表(AC)**
 	1. 第一种方法：可以利用链表和栈的不同属性。栈(先进后出)，链表(先进可以先出).
 	2. 递归(这种方法比较奇妙).
 
-4. **重建二叉树**  
+4. **重建二叉树(AC)**  
 	其实就是根据前序遍历和中序遍历还原二叉树
 	1. 第一个方法：肯定利用递归的思想。(技巧：重新构建一个方法)。
 		前序遍历第一个元素肯定是二叉树的根节点，再根据该节点二分中序遍历数组。
 
-5. **两个栈实现队列**
+5. **两个栈实现队列(AC)**
 	1. 利用栈的先进后出，队列先进先出的性质
 
-6. **旋转数组中的最小值**   
+6. **旋转数组中的最小值(AC)**   
 	其实该题目核心就是考察二分法。数组分为两半，每一半都是已经排好序的。
 	1. 利用旋转数组的性质。a[i+1] < a[i] ,则整个a[i+1]一定是整个旋转数组最小值。
 	2. 利用二分法。
 	
-7. **求解斐波那切数列**  
+7. **求解斐波那切数列(AC)**  
 	1. 递归(时间复杂度不可控)
 	2. 动态规划(定义两个变量,f,g. 时间复杂度 = O(n))
 	3. 或者开辟一个n维数组的空间，其实和前面动态规划的思路差不多。
 	
-8. **跳台阶** 
+8. **跳台阶(AC)** 
 	1. 其实核心就是找规律(斐波那切数列)
 	2. 对于斐波那切数列，可以用递归或者迭代来解决。
 	
-9. **变态跳台阶** 
+9. **变态跳台阶(AC)** 
 	1. 其实核心就是找规律(斐波那切数列)
 
-10. **矩阵覆盖**
+10. **矩阵覆盖(AC)**
 	1. 其实也是一个斐波那切数列问题，需要仔细分析，寻找规律。
 
-11. **二进制中1的个数(NoHave)**
+11. **二进制中1的个数(AC)**
 	1. 解法很奇妙(利用到位与运算的性质)[思路](https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8)
 	
-12. **数值的整数次方(NoHave)**	
+12. **数值的整数次方(AC)**	
 	0. 思路：简单快速幂。
 	1. 主要判断指数正负，底数是否为零的情况。
 	2. 写出指数的二进制表示形式。
 	3. 通过&1和>>1来逐位读取1101，为1时将该位代表的乘数累乘到最终结果。
 
-13. **调整数组顺序使奇数在偶数的前面**		
+13. **调整数组顺序使奇数在偶数的前面(AC)**		
 	1.首先分别用两个LinkedList存储元素，将奇数和偶数元素分开存储，然后在存回到数组中。
+	2. 方法2：利用类似于插入排序的思路。但是节省了空间，却消耗了时间。
 	
-14. **链表中倒数第k个结点**	
+14. **链表中倒数第k个结点(AC)**	
 	1. 思路：首先统计该链表总共有多少个结点，查找倒数第k个结点，其实就是顺着的count-k个结点
 	2. 思路：先让两个指针都指向头结点，然后让一个正走k步，到达第k个结点。
-			然后两个指针同时往后移动，当第一个结点到达末尾的时候，第二个结点所在位置就是倒数第ķ个节点了。
+			然后两个指针同时往后移动，当第一个结点到达末尾的时候，第二个结点所在位置就是倒数第ķ个节点了。其实这么做的核心也是求正向的第N-K个。  
+			注意如果k>N,则直接范湖Null。
 	
-15. **翻转链表(NoHave)**	
+15. **翻转链表(AC)**	
 	1. 思路1：定义四个结点：pre、current、newHead、tmp
 	2. 思路2：定义两个结点，next、pre
 
-16. **合并两个排序的链表(NoByMyself)**
+16. **合并两个排序的链表(AC)**
 	1. 第一种方法：递归调用法。每次都读取list1或者list2上面的某一个值
 	2. 第二种方法：上面思想的非递归版本。
 	
-17. **判断一个二叉树A是否包含二叉树B(NoByMyself)**
+17. **判断一个二叉树A是否包含二叉树B(AC)**
 	1. 思路：采用递归的方式。  
-			只有在root1和root2都不为空的时候，才开始判断，首先判断根节点，如果根节点不为空，才开始判断。  
+			只有在root1和root2都不为空的时候，才开始判断，首先判断根节点组成的树(这里面需要利用到递归，利用递归判断该节点组成的树)， 
+			是否是相等。
 		
-18. **二叉树的镜像(NoByMyself)**
+18. **二叉树的镜像(AC)**
 	1. 递归
+	2. 利用栈实现非递归的变换(每次都将根节点压入栈中)
 		
 19. **顺时针打印矩阵(NoByMyself)**
 	1. 找规律的题目：核心就是找出整个矩阵需要几个圆圈。  
 		然后依次左——右，上——下，右——左，下——上。开始依次遍历。
 		
-20. **构建包含min函数的栈(NoByMyself)**
+20. **构建包含min函数的栈(AC)**
 	1. 因为题目中提供了一个stack包，我们可以借助辅助的Stack,再构建一个minStack.每次都把Stack中的最小元素存储在min中。
 	2. 我们可以构建两个stack空间，一个用于正常的存储元素，一个按照顶部元素最小的来存储元素。
 
 21. **栈的压入和弹出序列判断(NoByMyself)**
 	1. 思路：模拟入栈的顺序，及出栈的顺序。如果最后出栈顺序可以吻合的话，则辅助栈空间最后为空。
 
-22. **从上到下打印二叉树(NoByMyself)**
+22. **从上到下打印二叉树(AC)**
 	1. 思路：题目本质考察的是层序遍历。可以借助队列的先进先出的性质，每次弹出一个结点，则压入左、右孩子结点。
 
 23. **二叉搜索树的后序遍历序列(NoByMyself)**
-	1. 二叉搜索树：对于二叉树，左子树所有结点数值比根节点小，右子树所有结点数组比根节点大。并且左、右子树的本身也是二叉搜索树。
+	1. 二叉搜索树：对于二叉树，左子树所有结点数值比根节点小，右子树所有结点数组比根节点大。并且左、右子树的本身也是二叉搜索树(递归思想)
+				   思路：最后一个点肯定是根节点，从根节点往前面遍历，如果找到比end小的点，则说明前半部分是左子树，然后判断左子树是否全部小于end。  
+						 如果上面的成立，则再分别遍历各个部分。
 
 24. **二叉树中和为某一值的路径(NoByMyself)**
 	1. 从根节点开始寻找，将target作为剩余值，每次都递减，如果进行到叶子节点并且target==0，则给路径是目标路径。然后再分别左右递归子树。  
+	   结束条件：如果刚好该节点是叶子节点，并且和为目标值，则打印该条路径。
 	   核心：类似于深度优先搜索。
 		
-25. **复杂链表的复制(NoByMyself)**
+25. **复杂链表的复制(AC)**
 	1. 核心想法分为三步走：第一步：复制每一个结点，放在就得结点后面，并且暂时不处理随机结点(也就是兄弟结点)   
 						   第二步：遍历链表。并且初始化兄弟节点。  
 						   第三步：拆分链表。得到新的和旧的链表。
 						   
-27. **字符串的排列(NoByMyself)**
+27. **字符串的排列(AC)**
 	1. 第一种方法：回溯法。每次寻找时 都从本身开始依次向后回溯(将自身和每一个元素相交换)
-	
-	
-	
 	
 	
 24. **数组出现次数超过一半的数(NoByMyself)**
