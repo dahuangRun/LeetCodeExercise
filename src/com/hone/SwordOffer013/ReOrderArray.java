@@ -14,8 +14,8 @@ import java.util.List;
  */
 public class ReOrderArray {
 	public void reOrderArray(int [] array) {
-        List<Integer> odd = new LinkedList<>();
-        List<Integer> even = new LinkedList<>();
+        List<Integer> odd = new LinkedList<Integer>();
+        List<Integer> even = new LinkedList<Integer>();
         for (int i = 0; i < array.length; i++) {
         	if (array[i]%2 != 0) {
 				odd.add(array[i]);
@@ -23,13 +23,11 @@ public class ReOrderArray {
 				even.add(array[i]);
 			}
 		}
-        
         for (int i = 0; i < odd.size(); i++) {
 			array[i] = odd.get(i);
 		}
         for (int i = 0; i < even.size(); i++) {
 			array[odd.size()+i] = even.get(i);
 		}
-        
     }
 }

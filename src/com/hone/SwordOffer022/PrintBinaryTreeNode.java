@@ -22,16 +22,18 @@ public class PrintBinaryTreeNode {
 		}
 		TreeNode curr = null;
 		//将根节点入队
-		temp.offer(root);
+		temp.add(root);
+		//实测add速度快于offer
+		//temp.offer(root);
 		//如果队列不为空，则开始将左右结点压入队列中
 		while (!temp.isEmpty()) {
 			curr = temp.poll();
 			res.add(curr.val);
 			if (curr.left != null) {
-				temp.offer(curr.left);
+				temp.add(curr.left);
 			}
 			if (curr.right != null) {
-				temp.offer(curr.right);
+				temp.add(curr.right);
 			}
 		}
 		return res;

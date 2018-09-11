@@ -24,12 +24,12 @@ public class ClockwisePrintMatrix {
 				res.add(matrix[i][j]);
 			}
 
-			// 从上往下开始添加
+			// 从上往下开始添加row
 			for (int k = i + 1; k < row - i; k++) {
 				res.add(matrix[k][col - i - 1]);
 			}
 
-			// 从右向左移动 (判断是否会重复打印)
+			// 从右向左移动 (判断是否会重复打印,当行或者列为奇数的时候只能打印一次)
 			for (int m = col - i - 2; m >= i && (row - i - 1 != i); m--) {
 				res.add(matrix[row - i - 1][m]);
 			}
