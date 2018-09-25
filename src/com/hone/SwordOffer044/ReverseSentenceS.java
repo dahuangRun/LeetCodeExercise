@@ -22,8 +22,4 @@ public class ReverseSentenceS {
 		}
 		return res.toString();
     }
-	public static void main(String[] args) {
-		String string = "student. a am I";
-		System.out.println(new ReverseSentenceS().ReverseSentence(string));
-	}
 }

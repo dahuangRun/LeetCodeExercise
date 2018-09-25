@@ -11,7 +11,6 @@ package com.hone.SwordOffer039;
 public class IsBalancedTree2 {
 	public boolean IsBalanced_Solution(TreeNode root) {
 		return getDepth(root) != -1;
-		
 	}
 	
 	//获取子树的高度，但是实际上的返回值并不是树的高度。

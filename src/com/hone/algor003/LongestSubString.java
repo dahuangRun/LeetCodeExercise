@@ -43,5 +43,4 @@ public class LongestSubString {
 		 
 		 return max_value;
 	    }
-
 }

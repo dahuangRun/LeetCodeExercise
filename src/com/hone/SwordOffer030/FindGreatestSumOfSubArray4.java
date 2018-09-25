@@ -29,6 +29,7 @@ public class FindGreatestSumOfSubArray4 {
 		
 		//首先求含中间边界的左右部分的最大值
 		//实际上是左数组的最大后缀和右数组的最大前缀的和
+		
 		center = (left+right)/2;
 		MaxLeftBorderSum = Integer.MIN_VALUE;      //最终的最大后缀
 		LeftWithBoderNowSum = 0;
@@ -59,7 +60,6 @@ public class FindGreatestSumOfSubArray4 {
 		return Max3(MaxLeftSum, MaxRightSum, MaxRightBorderSum+MaxLeftBorderSum);
 	}
 	
-	
 	public static  int Max3(int a, int b, int c){
 		int max = a;
 		if (b > max) 
@@ -68,6 +68,4 @@ public class FindGreatestSumOfSubArray4 {
 			max = c;
 		return max ;
 	}
-
-
 }

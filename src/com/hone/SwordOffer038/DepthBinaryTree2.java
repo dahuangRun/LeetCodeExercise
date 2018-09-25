@@ -30,7 +30,6 @@ public class DepthBinaryTree2 {
 				if (temp.right != null) {
 					queue.add(temp.right);
 				}
-				
 			}
 		}
 		return depth;

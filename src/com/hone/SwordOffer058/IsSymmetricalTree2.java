@@ -18,7 +18,6 @@ public class IsSymmetricalTree2 {
 		}
 		
 		Queue<TreeNode> q1 = new LinkedList<TreeNode>();
-//		Queue<TreeNode> q2 = new LinkedList<TreeNode>();
 		
 		
 		q1.add(pRoot.left);

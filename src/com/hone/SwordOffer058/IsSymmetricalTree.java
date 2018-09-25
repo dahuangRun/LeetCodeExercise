@@ -17,8 +17,12 @@ public class IsSymmetricalTree {
     }
 
 	private boolean comRoot(TreeNode left, TreeNode right) {
+		
+		if(left == null && right == null){
+            return true;
+        }
 		if (left == null) {
-			return right == null;
+			return false;
 		}
 		if (right == null) {
 			return false;
